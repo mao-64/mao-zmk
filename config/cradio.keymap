@@ -72,7 +72,7 @@
 		&kp Q &kp W &kp F &kp P &kp B           &kp COMMA &kp I  &kp U     &kp Y   &kp SEMICOLON 
 		&kp A &kp R &kp S &kp T &kp G           &kp M &kp H  &kp J     &kp K &kp L
 		&kp X &kp C &kp D &kp V &kp Z           &kp E &kp N  &kp O &kp DOT &kp SLASH
-             &lt EXT ESC &mt LSHIFT SPACE           &kp E &lt SYM BSPC
+             &lt EXT ESC &mt LSHIFT SPACE           &mt LGUI E &lt SYM BSPC
 		>;
 		};
 
