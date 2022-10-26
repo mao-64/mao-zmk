@@ -72,15 +72,15 @@
 		&kp Q &kp W &kp F &kp P &kp B           &kp COMMA &kp I  &kp U     &kp Y   &kp SEMICOLON 
 		&kp A &kp R &kp S &kp T &kp G           &kp M &kp H  &kp J     &kp K &kp L
 		&kp X &kp C &kp D &kp V &kp Z           &kp E &kp N  &kp O &kp DOT &kp SLASH
-             &mo EXT &mt LSHIFT SPACE           &kp E &sl SYM
+             &mo EXT &mt LSHIFT SPACE           &kp E &lt SYM BSPC
 		>;
 		};
 
         // Numbers and high frequency symbols
        		sym_layer {
 		bindings = <
-		&kp N1 &kp N2 &kp N3 &kp N4 &kp N5		                                    &kp N6 &kp N7 &kp N8 &kp N9 &kp N0
 		&kp IT_LESS &kp IT_PERC &kp IT_LPAR &kp IT_LBRC &kp IT_LBKT  &kp IT_EQL &kp IT_QUES &kp IT_SQUOT &kp IT_MINUS &kp IT_AST
+		&kp N1 &kp N2 &kp N3 &kp N4 &kp N5		                                    &kp N6 &kp N7 &kp N8 &kp N9 &kp N0
 		&kp IT_GREAT &kp IT_USD &kp IT_RPAR &kp IT_RBRC &kp IT_RBKT 	&kp IT_AT &kp IT_EXCL &kp IT_DQUOT &kp IT_PLUS &kp IT_FSLH
 					                                        &mo FNC  &mo SYM2       &trans &trans
 		>;
