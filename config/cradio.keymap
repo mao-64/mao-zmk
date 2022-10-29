@@ -70,9 +70,9 @@
         // Base alpha layer
        		default_layer {
 		bindings = <
-		&kp Q &kp W &kp F &kp P &kp B           &kp J &kp L  &kp U     &kp Y   &kp SEMICOLON 
-		&kp A &mt LALT R &mt LSHIFT S &mt LCTRL T &kp G           &kp M &mt RCTRL N  &mt RSHIFT E     &mt RALT I &kp O
-		&kp X &kp C &kp D &kp V &kp Z           &kp K &kp H  &kp COMMA &kp DOT &kp SLASH
+		&kp Q &kp W &kp F &kp P &kp B           &kp COMMA &kp L  &kp U     &kp Y   &kp SEMICOLON 
+		&kp A &kp R &kp S &kp T &kp G           &kp M &kp N  &kp E     &kp I &kp O
+		&kp X &kp C &kp D &kp V &kp Z           &kp DOT &kp H  &kp J &kp K &kp SLASH
              &mt LSHIFT ESC &lt EXT SPACE           &mt LGUI E &lt SYM BSPC
 		>;
 		};
@@ -80,19 +80,19 @@
         // Numbers and high frequency symbols
        		sym_layer {
 		bindings = <
-			&kp K_VOL_UP  &kp ENTER &trans  &trans  &trans    			        &trans  &trans &trans &trans &trans
-		&trans &kp AT &kp LBKT &kp MINUS &kp DQT  			&kp EXC &kp LPAR &kp RPAR &trans &trans
-		&kp BSLH &kp PIPE &kp LBRC &kp RBRC &kp SQT 					&kp TILDE &kp LBKT &kp RBKT &trans &trans
-					                       &kp LGUI  &kp LSHIFT       &mo SYM2 &trans
+		&trans &trans &trans &trans &trans  &trans &trans &kp IT_SQUOT &kp IT_MINUS &kp IT_AST
+		&kp N1 &kp N2 &kp N3 &kp N4 &kp N5		                                    &kp N6 &kp N7 &kp N8 &kp N9 &kp N0
+		&trans &trans &trans &trans &trans 					&trans &trans &trans &trans &trans
+					                                        &kp LGUI  &mo SYM2       &trans &trans
 		>;
 		};
 
         // Main modifiers and arrow keys
 		    ext_layer {
 		bindings = <
-		&sk LALT &sk LGUI  &kp K_VOL_DN  &kp K_VOL_UP  &kp RALT 			&trans &kp LEFT  &kp DOWN  &kp UP &kp RIGHT
-		&kp N1 &kp N2 &kp N3 &kp N4 &kp N5		                                    &kp N6 &kp N7 &kp N8 &kp N9 &kp N0
-		&kp K_VOL_DN  &trans &trans &kp TAB   &trans          &trans &trans &trans &trans  &trans
+		&kp K_VOL_UP  &trans &trans  &trans  &trans    			        &trans  &trans &trans &trans &trans
+		&sk LALT &sk LGUI  &sk LSHIFT  &sk LCTRL  &kp RALT 			&trans &kp LEFT  &kp DOWN  &kp UP &kp RIGHT
+		&kp K_VOL_DN  &trans) &trans &trans   &trans          &trans &trans &trans &trans  &trans
 					                        &trans &kp LCTRL    &kp ENTER  &mo FNC 
 		>;
 		};
