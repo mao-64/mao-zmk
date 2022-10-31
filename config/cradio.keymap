@@ -20,8 +20,19 @@
 // -----------------
 
 &mt {
+ //   flavor = "tap-preferred";
+ //   tapping_term_ms = <250>;
+};
+
+gqt: global-quick-tap {
+    compatible = "zmk,behavior-hold-tap";
+    label = "GLOBAL_QUICK_TAP";
+    #binding-cells = <2>;
     flavor = "tap-preferred";
-    tapping_term_ms = <250>;
+    tapping-term-ms = <200>;
+    quick-tap-ms = <125>;
+    global-quick-tap;
+    bindings = <&kp>, <&kp>;
 };
 
 &sk {
@@ -71,7 +82,7 @@
        		default_layer {
 		bindings = <
 		&kp Q &kp W &kp F &kp P &kp B           &kp J &kp L  &kp U     &kp Y   &kp SEMICOLON 
-		&mt LALT A &mt LGUI R &mt LSHIFT S &mt LCTRL T &kp G           &kp M &mt RCTRL N  &mt RSHIFT E     &mt RGUI I &mt RALT O
+		&gpt LALT A &gpt LGUI R &gpt LSHIFT S &gpt LCTRL T &kp G           &kp M &gpt RCTRL N  &gpt RSHIFT E     &gpt RGUI I &gpt RALT O
 		&kp X &kp C &kp D &kp V &kp Z           &kp K &kp H  &kp COMMA &kp DOT &kp SLASH
              &lt NUM ESC &lt EXT SPACE           &mt LGUI ENTER &lt SYM BSPC
 		>;
