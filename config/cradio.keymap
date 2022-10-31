@@ -14,7 +14,7 @@
     #define SYM 1
     #define EXT 2
     #define FNC 3
-    #define SYM2 4
+    #define NUM 4
     #define ACCENT 5
 		#define SETTINGS 6
 // -----------------
@@ -73,16 +73,16 @@
 		&kp Q &kp W &kp F &kp P &kp B           &kp J &kp L  &kp U     &kp Y   &kp SEMICOLON 
 		&mt LALT A &mt LGUI R &mt LSHIFT S &mt LCTRL T &kp G           &kp M &mt RCTRL N  &mt RSHIFT E     &mt RGUI I &mt RALT O
 		&kp X &kp C &kp D &kp V &kp Z           &kp K &kp H  &kp COMMA &kp DOT &kp SLASH
-             &mt LSHIFT ESC &lt EXT SPACE           &mt LGUI ENTER &lt SYM BSPC
+             &mt NUM ESC &lt EXT SPACE           &mt LGUI ENTER &lt SYM BSPC
 		>;
 		};
 
         // Numbers and high frequency symbols
        		sym_layer {
 		bindings = <
+			&kp N1 &kp N2 &kp N3 &kp N4 &kp N5		                                    &kp N6 &kp N7 &kp N8 &kp N9 &kp N0
 		&trans &kp AT &kp LBKT &kp MINUS &kp DQT  			&kp EXCL &kp LPAR &kp RPAR &trans &trans
-		&kp N1 &kp N2 &kp N3 &kp N4 &kp N5		                                    &kp N6 &kp N7 &kp N8 &kp N9 &kp N0
-		&trans &trans &kp LBRC &kp RBRC &kp SQT 					&trans &kp LBKT &kp RBKT &trans &trans
+		&trans &trans &kp LBRC &kp RBRC &kp SQT 					&kp TILDE &kp LBKT &kp RBKT &trans &trans
 					                                        &kp LGUI  &kp LSHIFT       &mo SYM2 &trans
 		>;
 		};
@@ -92,7 +92,7 @@
 		bindings = <
 		&kp K_VOL_UP  &kp ENTER &trans  &trans  &trans    			        &trans  &trans &trans &trans &trans
 		&sk LALT &sk LGUI  &sk LSHIFT  &sk LCTRL  &kp RALT 			&trans &kp LEFT  &kp DOWN  &kp UP &kp RIGHT
-		&kp K_VOL_DN  &trans &trans &kp TAB   &trans          &trans &trans &trans &trans  &trans
+		&kp K_VOL_DN  &trans &trans &kp TAB   &trans          &trans &kp LEFT &kp DOWN &kp UP  &kp RIGHT
 					                        &trans &kp LCTRL    &kp DEL  &mo FNC 
 		>;
 		};
@@ -108,12 +108,12 @@
 		};
 
         // Low frequency symbols.
-       		symbols_2_layer {
+       		NUMBER_layer {
 		bindings = <
 		&none &none &none &none &none         &none &none &none &none &none 
-		&none &none &none &none &none         &none &none &none &none &none
-		&none 			&none 			 &none &none &none				  &none &none &none &none &none
-          				           												&none &none        	&none &none 
+		&kp N1 &kp N2 &kp N3 &kp N4 &kp N5		                                    &kp N6 &kp N7 &kp N8 &kp N9 &kp N0
+		&none &none &none &none &none			  &none &none &none &none &none
+          				           												&none &none        	&kp LSHIFT &none 
 		>;
 		};
 
