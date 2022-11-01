@@ -98,7 +98,7 @@ behaviors {
 //		&kp X &kp C &kp D &kp V &kp Z           &kp K &kp H  &kp COMMA &kp DOT &kp SLASH
              //&lt NUM ESC &lt EXT SPACE           &mt LGUI ENTER &lt SYM BSPC
 		//>;
-		};
+		//};
        		default_layer {
 		bindings = <
 		&kp SEMICOLON &kp Y &kp U &kp L &kp J                               &kp B &kp P  &kp F     &kp W   &kp Q 
