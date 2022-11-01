@@ -91,11 +91,19 @@ behaviors {
 
 				
         // Base alpha layer
+//       		default_layer {
+//		bindings = <
+//		&kp Q &kp W &kp F &kp P &kp B           &kp J &kp L  &kp U     &kp Y   &kp SEMICOLON 
+//	&hm LALT A &hm LGUI R &hm LSHIFT S &hm LCTRL T &kp G           &kp M &hm RCTRL N  &hm RSHIFT E     &hm RGUI I &hm RALT O
+//		&kp X &kp C &kp D &kp V &kp Z           &kp K &kp H  &kp COMMA &kp DOT &kp SLASH
+             &lt NUM ESC &lt EXT SPACE           &mt LGUI ENTER &lt SYM BSPC
+		>;
+		};
        		default_layer {
 		bindings = <
-		&kp Q &kp W &kp F &kp P &kp B           &kp J &kp L  &kp U     &kp Y   &kp SEMICOLON 
-	&hm LALT A &hm LGUI R &hm LSHIFT S &hm LCTRL T &kp G           &kp M &hm RCTRL N  &hm RSHIFT E     &hm RGUI I &hm RALT O
-		&kp X &kp C &kp D &kp V &kp Z           &kp K &kp H  &kp COMMA &kp DOT &kp SLASH
+		&kp SEMICOLON &kp Y &kp U &kp L &kp J                               &kp B &kp P  &kp F     &kp W   &kp Q 
+	&hm LALT O &hm LGUI I &hm LSHIFT E &hm LCTRL N &kp M           &kp G &hm RCTRL T  &hm RSHIFT S     &hm RGUI R &hm RALT A
+		&kp SLASH &kp DOT &kp COMMA &kp H &kp K                               &kp Z &kp V  &kp D &kp C &kp X
              &lt NUM ESC &lt EXT SPACE           &mt LGUI ENTER &lt SYM BSPC
 		>;
 		};
