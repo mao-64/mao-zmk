@@ -111,7 +111,7 @@ behaviors {
         // Numbers and high frequency symbols
        		sym_layer {
 		bindings = <
-			&kp N1 &kp N2 &kp LBKT &kp RBKT &kp BSLH		                                    &kp STAR &kp EQUAL &kp DLLR &kp N9 &kp N0
+			&kp N1 &kp GRAVE &kp LBKT &kp RBKT &kp BSLH		                                    &kp STAR &kp EQUAL &kp DLLR &kp N9 &kp N0
 		&kp PLUS &kp AT &kp HASH &kp MINUS &kp DQT  			&kp EXCL &kp LPAR &kp RPAR &kp UNDER &kp PRCNT
 		&kp QMARK &kp PIPE &kp LBRC &kp RBRC &kp SQT 					&kp TILDE &kp LBKT &kp RBKT &trans &trans
                                         &kp LGUI  &kp LSHIFT       &mo NUM &trans
