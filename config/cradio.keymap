@@ -94,9 +94,9 @@ behaviors {
        		default_layer {
 		bindings = <
 		&kp Q &kp W &kp F &kp P &kp B           &kp J &kp L  &kp U     &kp Y   &kp SEMICOLON 
-		&hm LALT A &hm LGUI R &hm LSHIFT S &hm LCTRL T &kp G           &kp M &hm RCTRL N  &hm RSHIFT E     &hm RGUI I &hm RALT O
-		&kp X &kp C &kp D &kp V &kp Z           &kp K &kp H  &kp G &kp B &kp M
-             &lt NUM ESC &lt EXT SPACE           &lt SYM ENTER &mt LSHIFT BSPC
+		&hm LALT A &hm LGUI R &hm LSHIFT S &hm LCTRL T &kp G           &kp M &hm RCTRL N  &hm RSHIFT M     &hm RGUI I &hm RALT O
+		&kp X &kp C &kp D &kp V &kp Z           &kp K &kp H  &kp G &kp B &kp J
+             &lt NUM ENTER &lt EXT SPACE           &lt SYM E &mt LSHIFT BSPC
 		>;
 		};
 //       		default_layer {
@@ -123,7 +123,7 @@ behaviors {
 		bindings = <
 		&kp K_VOL_UP  &kp K_APP &trans  &kp PSCRN  &kp PSCRN    			        &trans  &trans &trans &trans &trans
 		&sk LALT &sk LGUI  &sk LSHIFT  &sk LCTRL  &kp RALT 			&trans &kp LEFT  &kp DOWN  &kp UP &kp RIGHT
-		&kp K_VOL_DN  &kp SQT &kp DQT &kp TAB   &trans          &trans &trans &kp COMMA &kp DOT &kp SLASH
+		&kp K_VOL_DN  &kp SQT &kp DQT &kp TAB   &trans          &trans &kp ESC &kp COMMA &kp DOT &kp SLASH
 					                        &trans &kp LCTRL    &kp DEL  &mo FNC 
 		>;
 		};
