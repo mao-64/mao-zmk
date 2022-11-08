@@ -93,10 +93,10 @@ behaviors {
         // Base alpha layer
        		default_layer {
 		bindings = <
-		&kp Q &kp W &kp F &kp P &kp B           &kp J &kp L  &kp U     &kp Y   &kp SEMICOLON 
+		&kp Q &kp W &kp F &kp P &kp B           &kp J &kp L  &kp U     &kp Y   &kp K
 		&hm LALT A &hm LGUI R &hm LSHIFT S &hm LCTRL T &kp G           &kp M &hm RCTRL N  &hm RSHIFT M     &hm RGUI I &hm RALT O
-		&kp X &kp C &kp D &kp V &kp Z           &kp K &kp H  &kp G &kp B &kp J
-             &lt NUM ENTER &lt EXT SPACE           &lt SYM E &mt LSHIFT BSPC
+		&kp X &kp C &kp D &kp V &kp Z           &kp K &kp H  &kp J &kp B &kp Z
+             &lt NUM G &lt EXT SPACE           &lt SYM E &lt FNC BSPC
 		>;
 		};
 //       		default_layer {
@@ -123,7 +123,7 @@ behaviors {
 		bindings = <
 		&kp K_VOL_UP  &kp K_APP &trans  &kp PSCRN  &kp PSCRN    			        &trans  &trans &trans &trans &trans
 		&sk LALT &sk LGUI  &sk LSHIFT  &sk LCTRL  &kp RALT 			&trans &kp LEFT  &kp DOWN  &kp UP &kp RIGHT
-		&kp K_VOL_DN  &kp SQT &kp DQT &kp TAB   &trans          &trans &kp ESC &kp COMMA &kp DOT &kp SLASH
+		&kp K_VOL_DN  &kp SQT &kp ENTER &kp TAB   &trans          &trans &kp ESC &kp COMMA &kp DOT &kp SLASH
 					                        &trans &kp LCTRL    &kp DEL  &mo FNC 
 		>;
 		};
@@ -133,7 +133,7 @@ behaviors {
 		bindings = <
 		&kp F1 &kp F2 &kp F3 &kp F4 &kp F5                  &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 
 		&sk LALT &kp Z &kp G &kp B &kp RALT     &kp F11 &kp J  &kp M &kp K &trans
-		&none &none &none &none &none				          &none &none &none &none &none 
+		&none &none &none &kp SEMICOLON &none				          &none &none &none &none &none 
           				           &none &none              &none &none  
 		>;
 		};
