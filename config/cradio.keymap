@@ -94,9 +94,9 @@ behaviors {
        		default_layer {
 		bindings = <
 		&kp Q &kp W &kp F &kp P &kp B           &kp J &kp L  &kp U     &kp Y   &kp K
-		&hm LALT A &hm LGUI R &hm LSHIFT S &hm LCTRL T &kp G           &kp M &hm RCTRL N  &hm RSHIFT M     &hm RGUI I &hm RALT O
+		&hm LALT A &hm LGUI R &hm LSHIFT S &hm LCTRL T &kp G           &kp M &hm RCTRL N  &hm RSHIFT E     &hm RGUI I &hm RALT O
 		&kp X &kp C &kp D &kp V &kp Z           &kp K &kp H  &kp B &kp J &kp Z
-             &lt NUM G &lt EXT SPACE           &lt SYM BSLH &lt FNC E
+             &lt NUM G &lt EXT SPACE           &lt SYM BSLH &lt FNC M
 		>;
 		};
 //       		default_layer {
