@@ -101,10 +101,10 @@ behaviors {
 //		};
        		default_layer {
 		bindings = <
-		&kp W &kp L &kp R &kp B &kp Z           &kp SEMICOLON &kp Q  &kp U     &kp D   &kp J
+		&kp Z &kp L &kp R &kp B &kp Z           &kp SEMICOLON &kp Q  &kp U     &kp D   &kp J
 		&hm LALT S &hm LGUI H &hm LSHIFT N &hm LCTRL T &kp COMMA           &kp DOT &hm RCTRL A  &hm RSHIFT E     &hm RGUI O &hm RALT I
 		&kp F &kp M &kp V &kp C &kp SLASH           &kp G &kp P  &kp X &kp K &kp Y
-             &lt NUM Z &lt EXT SPACE           &lt SYM BSPC &lt FNC G
+             &lt NUM W &lt EXT SPACE           &lt SYM BSPC &lt FNC G
 		>;
 		};
 
