@@ -123,7 +123,7 @@ behaviors {
 		    ext_layer {
 		bindings = <
 		&kp K_VOL_UP  &kp K_APP &trans  &kp PSCRN  &kp PSCRN    			        &trans  &trans &trans &trans &trans
-		&sk LALT &sk LGUI  &sk LSHIFT  &sk LCTRL  &kp RALT 			&trans &kp LEFT  &kp DOWN  &kp UP &kp RIGHT
+		&sk LALT &sk LGUI  &kp ENTER &kp TAB  &kp RALT 			&trans &kp LEFT  &kp DOWN  &kp UP &kp RIGHT
 		&kp K_VOL_DN  &kp SQT &kp ENTER &kp TAB   &trans          &trans &kp ESC &kp COMMA &kp DOT &kp SLASH
 					                        &trans &kp LCTRL    &kp DEL  &mo FNC 
 		>;
