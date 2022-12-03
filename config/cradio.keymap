@@ -17,6 +17,7 @@
     #define NUM 4
     #define ACCENT 5
 		#define SETTINGS 6
+		#define GAMEING 7
 // -----------------
 
 &mt {
@@ -91,23 +92,23 @@ behaviors {
 
 				
         // Base alpha layer
-//       		default_layer {
-//		bindings = <
-//		&kp Q &kp W &kp F &kp P &kp B           &kp J &kp L  &kp U     &kp Y   &kp SEMICOLON
-//		&hm LALT A &hm LGUI R &hm LSHIFT S &hm LCTRL T &kp G           &kp M &hm RCTRL N  &hm RSHIFT E     &hm RGUI I &hm RALT O
-//		&kp X &kp C &kp D &kp V &kp Z           &kp K &kp H  &kp COMMA &kp DOT &kp SLASH
-//             //&lt NUM G &lt EXT SPACE           &lt SYM BSPC &lt FNC M
-//             &lt NUM W &lt EXT SPACE           &lt SYM BSPC &lt FNC G
-//		>;
-//		};
        		default_layer {
 		bindings = <
-		&kp Z &kp L &kp R &kp B &kp Z           &kp SEMICOLON &kp Q  &kp U     &kp D   &kp J
-		&hm LALT S &hm LGUI H &hm LSHIFT N &hm LCTRL T &kp COMMA           &kp DOT &hm RCTRL A  &hm RSHIFT E     &hm RGUI O &hm RALT I
-		&kp F &kp M &kp V &kp C &kp SLASH           &kp G &kp P  &kp X &kp K &kp Y
+		&kp Q &kp W &kp F &kp P &kp B           &kp J &kp L  &kp U     &kp Y   &kp SEMICOLON
+		&hm LALT A &hm LGUI R &hm LSHIFT S &hm LCTRL T &kp G           &kp M &hm RCTRL N  &hm RSHIFT E     &hm RGUI I &hm RALT O
+		&kp X &kp C &kp D &kp V &kp Z           &kp K &kp H  &kp COMMA &kp DOT &kp SLASH
+             //&lt NUM G &lt EXT SPACE           &lt SYM BSPC &lt FNC M
              &lt NUM W &lt EXT SPACE           &lt SYM BSPC &lt FNC G
 		>;
 		};
+//       		default_layer {
+//		bindings = <
+//		&kp Z &kp L &kp R &kp B &kp Z           &kp SEMICOLON &kp Q  &kp U     &kp D   &kp J
+//		&hm LALT S &hm LGUI H &hm LSHIFT N &hm LCTRL T &kp COMMA           &kp DOT &hm RCTRL A  &hm RSHIFT E     &hm RGUI O &hm RALT I
+//		&kp F &kp M &kp V &kp C &kp SLASH           &kp G &kp P  &kp X &kp K &kp Y
+//             &lt NUM W &lt EXT SPACE           &lt SYM BSPC &lt FNC G
+//		>;
+//		};
 
         // Numbers and high frequency symbols
        		sym_layer {
@@ -166,6 +167,14 @@ behaviors {
 		&bootloader &none &none &bt BT_CLR &bt BT_SEL 0               &bt BT_SEL 3 &none &unstick &none &bootloader 
 		&none &none &none &none      &bt BT_SEL 1 						  &bt BT_SEL 4 &none &none &none &none
 		&none &none &none &none      &bt BT_SEL 2               &bt BT_SEL 5 &none &none &none &none
+          				     &none &none                         &none &none 
+		>;
+		};
+       		gaming_layer {
+		bindings = <
+		&none &none &kp W &none &none               &none &none &none &none &none 
+		&none &kp A &kp S &kp D &none 				  &none &none &none &none &none
+		&none &none &none &none &none               &none &none &none &none &none
           				     &none &none                         &none &none 
 		>;
 		};
