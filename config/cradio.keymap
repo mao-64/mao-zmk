@@ -59,7 +59,7 @@
 						key-positions = <30 31>;
 						bindings = <&mo SETTINGS>;
 				};
-				combo_shift {
+				combo_shift{
 						timeout-ms = <300>;
 						key-positions = <31 32>;
 						bindings = <&kp LSHIFT>;
@@ -76,15 +76,15 @@ behaviors {
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
-//	td: tapdance {
-//            compatible = "zmk,behavior-hold-tap";
-//            label = "TAPDANCE";
-//            #binding-cells = <2>;
-//            tapping-term-ms = <150>;
-//            quick_tap_ms = <0>;
-//            flavor = "tap-preferred";
-//            bindings = <&kp>, <&kp>;
-//        };
+	td: tapdance {
+            compatible = "zmk,behavior-hold-tap";
+            label = "TAPDANCE";
+            #binding-cells = <2>;
+            tapping-term-ms = <150>;
+            quick_tap_ms = <0>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&kp>;
+        };
     };
 	 
 
@@ -134,20 +134,12 @@ behaviors {
         // Function keys with modifiers
        		fnc_layer {
 		bindings = <
-		&none &none &none &none &none                  &none &none &none &none &none 
-		&none &none &none &none &none     &none &none  &none &none &none
-		&none &none &none &none &none				          &none &none &none &none &none 
+		&kp F1 &kp F2 &kp F3 &kp F4 &kp F5                  &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 
+		&sk LALT &kp Z &kp G &kp B &kp RALT     &kp F11 &kp J  &kp M &kp K &trans
+		&none &none &kp SEMICOLON &kp COLON &none				          &none &none &none &none &none 
           				           &none &none              &none &none  
 		>;
 		};
-//       		fnc_layer {
-//		bindings = <
-//		&none &none &none &none &none                  &none &none &mkp MCLK &none &none 
-//		&none &none &mwh SCROLL_DOWN &mwh SCROLL_UP &none     &none &mmv MOVE_LEFT  &mmv MOVE_DOWN &mmv MOVE_UP &mmv MOVE_RIGHT
-//		&none &none &kp SEMICOLON &kp COLON &none				          &none &none &none &none &none 
-//          				           &mkp LCLK &mkp RCLK              &none &none  
-//		>;
-//		};
 
         // Low frequency symbols.
        		NUMBER_layer {
